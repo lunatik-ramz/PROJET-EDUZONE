@@ -1,0 +1,409 @@
+
+
+
+
+footer{
+  padding:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+  height: 2;
+}
+
+/* Showcase */
+#body{
+  margin-bottom:0;
+  min-height:250px;
+  background:url('../img/enfant.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  text-color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:0px;
+  margin-bottom:10px;
+  text-align: center;
+}
+
+     /* Style du bouton */
+        .bouton-lien {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color:white;
+            background-color:#3115ff; /* Couleur bleue */
+            border: none;
+            border-radius: 5px;
+            border-style: groove;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .bouton-lien:hover {
+            background-color: #0056b3; /* Couleur plus foncée au survol */
+        }
+   
+#body2{
+  padding:10px;
+  margin-bottom:0;
+  min-height:200px;
+  border-style: double;
+  color:white;
+   background:url('../img/enfant.jpeg')no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-color:#d5f4ff;
+  text-align: front; 
+}
+
+.p1{
+    Font-size: none;
+    text-shadow: 1px 2px 3px red; 
+}
+
+.p2{
+    font-size:none;
+    text-shadow: 1px 2px 3px blue;
+    }
+
+        .bouton-lien:hover {
+            background-color: #0056b3; /* Couleur plus foncée au survol */
+        }
+.dark2{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  border-style: groove;
+  margin-top:0px;
+  margin-bottom:10px;
+  text-align:front;
+}
+
+.practeur-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 95%;   
+  height: 100px;
+}
+
+.practeur-item .practeur-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.practeur-item .practeur-info .title {
+  margin-bottom: 10px;
+  color: #333; /* Couleur du titre */
+}
+
+.practeur-item .practeur-info .content {
+  margin-bottom: 20px;
+  color: #666; /* Couleur du contenu */
+}
+
+.practeur-item .practeur-info .select-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.practeur-item .practeur-info .select-button:hover {
+  background-color: #0056b3;
+}
+
+.separator {
+  width:50px;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 10px 0;
+}
+  
+  
+  
+        .conteneur {
+            display: flex;
+            flex-direction: column;
+            border-style: groove;
+            border-radius:10px;
+            align-items: center;
+            background-color: #35424a;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        
+        .separateur {
+            width: 90%;
+            max-width: 500px;
+            height: 2px;
+            background-color: #007bff;
+            margin: 10px 0;
+        }
+        
+        .conteneur2 {
+            padding:15px;
+  background-color:#e8491d;
+  color: orange;
+  margin-top:0px;
+  height: 1px;
+  margin-bottom:0px;
+  text-align: center;
+            
+            }
+        .marqueur-conteneur {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .bodi2 {
+  margin-bottom:0;
+  min-height:200px;
+  color:white;
+  background:url('../img/ekm.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-color:#d5f4ff;
+  text-align: front; 
+}
+        .pe1{
+    Font-size: none;
+    text-shadow: 1px 2px 3px red; 
+}
+        .botton-lien {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color:white;
+            background-color:#3115ff; /* Couleur bleue */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }   
+        
+        #body3{
+  margin-bottom:0;
+  min-height:300px;
+  color:white;
+  background:url('../img/ekm.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-color:#d5f4ff;
+  text-align: front; 
+}
+ 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+   /* Style général */
+body5 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#accueil {
+  padding: 40px;
+  text-align: center;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+/* Barre du haut */
+.navbar {
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.navbar2 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.logo span {
+  color: orange;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: orange;
+}
+
+/* Boutons */
+.bouton {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.bouton.orange {
+  background-color: orange;
+}
+
+.bouton.bleu {
+  background-color: #3115ff;
+}
+
+/* Image */
+img {
+  height: 700px;
+  width: 99%;
+}
+
+/* Pied de page */
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #e8491d;
+  text-align: center;
+}
+.practice-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  height:100px;
+}
+
+.practice-item .practice-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.practice-item .practice-info .title {
+  margin-bottom: 10px;
+  color: #333; /* Couleur du titre */
+}
+
+.practice-item .practice-info .content {
+  margin-bottom: 20px;
+  color: #666; /* Couleur du contenu */
+}
+
+.practice-item .practice-info .select-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.practice-item .practice-info .select-button:hover {
+  background-color: #0056b3;
+}
+
+.separator {
+  width:50px;
+  height: 4px;
+  background-color: #ffffff;
+  margin: 10px 0;
+}
+  
+  
+  
+        .conteneur {
+            display: flex;
+            flex-direction: column;
+            border-style: groove;
+            border-radius:10px;
+            align-items: center;
+            background-color: #35424a;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .practeur-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            border-style: double;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+            margin-bottom: 10px;
+        }
+
+        .practeur-info .title {
+            color: #333;
+            font-weight: bold;
+        }
+
+        .practeur-info .content {
+            color: #666;
+        }
+
+        .separateur {
+            width: 90%;
+            max-width: 500px;
+            height: 2px;
+            background-color: #007bff;
+            margin: 10px 0;
+        }
+        
