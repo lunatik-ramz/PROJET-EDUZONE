@@ -66,6 +66,39 @@
     <p>&copy; Equipe EduSpack 2025 Tous droits réservés</p>
   </footer>
 
+  <!-- Fake AI Helper that works 100% without API -->
+<div style="position:fixed; bottom:20px; right:20px; background:#fff; padding:15px; border:2px solid #007BFF; border-radius:10px; width:300px; box-shadow:0 4px 8px rgba(0,0,0,0.2); z-index:1000;">
+  <h4 style="margin-top:0;">Assistant Quiz IA</h4>
+  <input type="text" id="quizTopic" placeholder="Entrez une matière (ex: Math)" style="width:90%; padding:5px;">
+  <button onclick="getFakeAIHelp()" style="margin-top:5px;">Demander à l'IA</button>
+  <p id="aiResponse" style="font-size:0.9em; color:#333;"></p>
+</div>
+
+<script>
+function getFakeAIHelp() {
+    const topic = document.getElementById('quizTopic').value.toLowerCase();
+    const responseArea = document.getElementById('aiResponse');
+    let response = '';
+
+    switch(topic) {
+        case 'math':
+            response = 'Révisez les formules importantes et faites des exercices pratiques tous les jours.';
+            break;
+        case 'science':
+            response = 'Concentrez-vous sur les définitions et les expériences clés. Résumez chaque chapitre.';
+            break;
+        case 'histoire':
+            response = 'Apprenez les dates importantes et comprenez le contexte de chaque événement.';
+            break;
+        default:
+            response = 'Choisissez une matière comme Math, Science ou Histoire pour obtenir des conseils.';
+    }
+
+    responseArea.innerText = response;
+}
+</script>
+
+
 </body>
 
 </html>
